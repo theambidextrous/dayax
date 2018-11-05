@@ -1,6 +1,6 @@
 <?php
 define("SYS_NAME", "Dayax Cargo Limited");
-define("SYS_URL", "http://127.0.0.1/dayaxcargo/");
+define("SYS_URL", "http://127.0.0.1/dayax/");
 define("KEY_WORDS","Dayax Cargo Air Freight, Sea Freight, Air Shipping, Sea Shipping, Cargo Shipping");
 define("DESCRIPTION", "Dayax Cargo Limited (DCL) is an Air, Sea and Road Freight forwarding company based in UK with offices in China, UAE, India, USA, Turkey & Eastern Africa Cities.");
 define("DEV", "Byteblade Systems Inc. Web application section");

@@ -246,18 +246,32 @@ require_once('layouts/sidebar.php');
 	<!-- Footer -->
 	<div class="clear-div"></div>
 	<div class="footer3_box">
-		<div id="footer3"> 
+		<div id="fokoter3"> 
 	
-<div class="random-image">
-	<img src="//." alt="" width="" height="" /></div>
+<div class="lookup-image">
+	<img src="#" alt="" width="" height="" /></div>
 <style> 
-
+#fokoter3 {
+    font-size: 11px;
+    color: #fff;
+    padding: 5px;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer3_box {
+    width: 100%;
+    background-image:url(<?=SYS_URL?>wpuploads/all/footer.jpg);
+    margin-left: auto;
+    margin-right: auto;
+}
 .footer3 { 
 color: #fff;
 width: 100%;
 text-align: justify;
-background: #232323;
+background:transparent;
 }
+
 
 .footer3:after {
 content: "";
@@ -283,7 +297,12 @@ text-decoration: none;
 font-weight: bold;
 margin-bottom: 15px;
 }
-
+.footer {
+    color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #102979;
+}
 </style>
 <?php 
 require_once('layouts/footer.php');

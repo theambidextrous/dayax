@@ -1,10 +1,13 @@
 <div class="r1"><div class="moduletable">
 <div class="bannergroup">
 <div class="banneritem">
-<a href="#" target="_blank"
+<!-- <a href="#" target="_blank"
 title="Air and Sea freight">
-<img src="<?=SYS_URL?>wpuploads/sliders/main-banner.png" alt="Air and Sea freight"/>
-</a>
+<img src="<//SYS_URL?>wpuploads/sliders/main-banner.png" alt="Air and Sea freight"/>
+</a> -->
+<?php 
+require_once('layouts/carousel.php');
+?>
 <div class="clear-div"></div>
 </div>
 </div>
@@ -125,17 +128,17 @@ font-weight: normal;
         </div>
         <div class="sbox">
             <div class="sbox_item">
-            <a href="#"><img src="<?=SYS_URL?>wpuploads/services/plane.png"/></a>
-            <h3><a  class="serv" href="#">Packaging Services</a></h3>
+            <a href="#"><img src="<?=SYS_URL?>wpuploads/services/package.png"/></a>
+            <h3><a  class="serv" href="#">Packaging</a></h3>
             <p>We do cargo packaging and general handling for safe shipping purposes</p>
             </div>
             <div class="sbox_item">
-            <h3> <a href="#"> <img src="<?=SYS_URL?>wpuploads/services/ship.png"/></a>
+            <h3> <a href="#"> <img src="<?=SYS_URL?>wpuploads/services/delivery.png"/></a>
             <h3> <a  class="serv" href="#">Pickup & Delivery </a> </h3>
             <p>Request pickup, request delivery. Get the fastest services ever</p>
             </div>
             <div class="sbox_item">
-            <a href="#"><img src="<?=SYS_URL?>wpuploads/services/truck.png"/></a>
+            <a href="#"><img src="<?=SYS_URL?>wpuploads/services/clearing.png"/></a>
             <h3><a  class="serv" href="#">Cargo Clearing</a></h3>
             <p>Your shipment should not be delayed at the port. Let us handle it for you</p>
             </div>
