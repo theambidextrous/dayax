@@ -1,0 +1,18 @@
+/* ======================================================
+# Web357 Framework - Joomla! Plugin (FREE version)
+# -------------------------------------------------------
+# For Joomla! 3.x
+# Copyright (©) 2009-2015 Web357.eu. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Website: http://www.web357.eu
+# Demo: http://demo.web357.eu/?item=web357framework
+# Support: support@web357.eu
+# Last modified: 02 Jun 2015, 01:14:36
+========================================================= */
+
+.icon-monthlyarchive:before {
+	content: "\e242";
+}
+.icon-vmsales:before {
+	content: "\e242";
+}
